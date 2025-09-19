@@ -1,0 +1,9 @@
+ENTENDIMIENTO INICIAL DE DATOS - RESUMEN EJECUTIVO
+============================================================
+
+Dataset: 58,895 reservas, 33 variables
+Tasa de cancelación: 41.1%
+Lead time mediano: 69 días
+ADR promedio: $97.84
+
+Variables críticas: is_canceled, lead_time, adr, deposit_type, hotel

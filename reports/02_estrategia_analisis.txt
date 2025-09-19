@@ -1,0 +1,38 @@
+ESTRATEGIA DE ANÁLISIS - TALLER 1
+============================================================
+
+La estrategia analítica se estructura en tres niveles complementarios que permiten 
+una comprensión integral del fenómeno de cancelaciones y sus factores determinantes:
+
+NIVEL 1: ANÁLISIS DESCRIPTIVO Y SEGMENTACIÓN
+Utilizaremos estadísticos descriptivos segmentados para identificar patrones base 
+de cancelación. Esta segmentación inicial por hotel, canal, temporada y tipo de 
+cliente permitirá identificar grupos de alto riesgo donde focalizar intervenciones. 
+La visualización multivariante mediante mapas de calor y gráficos categóricos 
+revelará interacciones entre variables clave como lead_time, deposit_type y 
+precio, fundamentales para diseñar políticas diferenciadas.
+
+NIVEL 2: ANÁLISIS INFERENCIAL Y VALIDACIÓN
+Aplicaremos pruebas estadísticas rigurosas (chi-cuadrado para variables categóricas, 
+Mann-Whitney para comparaciones de grupos dado el sesgo en variables continuas) para 
+validar que las diferencias observadas son estadísticamente significativas y no 
+producto del azar. Este nivel proporciona la confianza necesaria para tomar 
+decisiones basadas en evidencia sólida, cuantificando tamaños de efecto mediante 
+Cramér's V y Cohen's d para priorizar intervenciones por impacto potencial.
+
+NIVEL 3: MODELADO PREDICTIVO INTERPRETABLE
+Desarrollaremos un modelo de regresión logística para predecir probabilidad de 
+cancelación, priorizando interpretabilidad sobre precisión máxima. Los coeficientes 
+del modelo, expresados como odds ratios, permitirán cuantificar el impacto relativo 
+de cada factor, mientras que análisis de importancia de variables guiará la 
+priorización de acciones. La validación cruzada asegurará robustez de resultados.
+
+JUSTIFICACIÓN DE TÉCNICAS:
+- Estadísticos descriptivos segmentados: Permiten identificar rápidamente grupos 
+  problemáticos sin complejidad computacional.
+- Visualizaciones multivariantes: Revelan patrones no evidentes en análisis 
+  univariados, especialmente interacciones.
+- Tests no paramétricos: Apropiados dado el sesgo y outliers en variables como 
+  ADR y lead_time.
+- Regresión logística: Balance óptimo entre interpretabilidad para stakeholders 
+  y capacidad predictiva.

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(pipx install:*)",
+      "Bash(chmod:*)",
+      "Bash(tree:*)",
+      "Bash(source:*)",
+      "mcp__ide__executeCode",
+      "Bash(cd:*)"
+    ],
+    "deny": []
+  }
+}

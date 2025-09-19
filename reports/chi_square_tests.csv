@@ -1,0 +1,8 @@
+Variable,Chi2,p-value,Cramers V,Efecto,Significativo
+hotel,6161.63,0.0000,0.371,Efecto mediano,Sí
+deposit_type,1828.38,0.0000,0.202,Efecto pequeño,Sí
+customer_type,1347.33,0.0000,0.174,Efecto pequeño,Sí
+distribution_channel,1620.57,0.0000,0.190,Efecto pequeño,Sí
+market_segment,3213.62,0.0000,0.268,Efecto pequeño,Sí
+meal,1209.81,0.0000,0.164,Efecto pequeño,Sí
+reserved_room_type,194.93,0.0000,0.066,Efecto despreciable,Sí

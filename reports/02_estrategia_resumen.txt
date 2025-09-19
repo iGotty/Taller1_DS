@@ -1,0 +1,30 @@
+ESTRATEGIA DE ANÁLISIS - RESUMEN EJECUTIVO
+============================================================
+
+CONTEXTO:
+El dataset presenta una tasa de cancelación del 41.1%, 
+representando una pérdida potencial de $9,258,507 en ingresos.
+
+ESTRATEGIA PROPUESTA:
+Implementación de un enfoque analítico de tres niveles que combina análisis descriptivo 
+segmentado, validación estadística rigurosa y modelado predictivo interpretable. Esta 
+aproximación permite identificar factores causales, cuantificar impactos y diseñar 
+intervenciones focalizadas.
+
+TÉCNICAS CLAVE:
+1. Segmentación multidimensional por hotel, canal, temporada y cliente
+2. Tests estadísticos no paramétricos adaptados a la distribución de los datos
+3. Regresión logística para predicción y cuantificación de efectos
+4. Visualización avanzada para comunicación de insights
+
+RESULTADOS ESPERADOS:
+• Reducción de 5 puntos porcentuales en tasa de cancelación
+• Mejora del 10% en ocupación efectiva
+• ROI estimado de 3:1 en el primer año de implementación
+• Framework reproducible para mejora continua
+
+PRÓXIMOS PASOS:
+1. Ejecutar análisis detallado según framework definido
+2. Validar hallazgos con equipo operativo
+3. Implementar quick wins identificados
+4. Establecer sistema de monitoreo continuo
