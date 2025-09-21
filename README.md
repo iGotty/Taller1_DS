@@ -18,6 +18,7 @@ Análisis integral de datos de reservas hoteleras para identificar patrones de d
 │   ├── 03_desarrollo_estrategia.ipynb
 │   └── 04_informe_ejecutivo.ipynb
 ├── reports/                   # Reportes y visualizaciones
+│   ├── Análisis de cancelaciones y ocupación hotelera.pdf              # presentacion final
 │   ├── figures/              # Gráficos exportados
 │   └── presentacion_taller.pptx
 ├── src/                      # Código fuente reutilizable
