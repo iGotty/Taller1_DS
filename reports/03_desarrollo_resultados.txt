@@ -2,44 +2,26 @@ DESARROLLO DE ESTRATEGIA - RESULTADOS PRINCIPALES
 ============================================================
 
 1. FACTORES CRÍTICOS DE CANCELACIÓN:
-   • Lead time: Principal predictor (OR > 1.5 para reservas > 60 días)
-   • Tipo de depósito: Depósitos no reembolsables reducen 75% las cancelaciones
-   • Tipo de hotel: City Hotel presenta 10pp más cancelaciones que Resort
-   • Canal de distribución: TA/TO muestra tasas 15pp superiores al promedio
+   • Lead time: las reservas con más de 60 días de anticipación tienen mayor probabilidad de cancelarse.
+   • Tipo de depósito: cuando se exige depósito no reembolsable, las cancelaciones caen de forma notable.
+   • Tipo de hotel: el City Hotel presenta más cancelaciones que el Resort, lo que sugiere diferencias por perfil de cliente.
+   • Canal de distribución: algunos canales intermedios concentran tasas de cancelación muy por encima del promedio.
 
-2. SEGMENTOS DE ALTO RIESGO IDENTIFICADOS:
-   • 30.1% de reservas con probabilidad > 60%
-   • Concentrados en: lead time largo + sin depósito + canal TA/TO
-   • Potencial de pérdida: $7.6M anualizados
+2. SEGMENTOS DE ALTO RIESGO:
+   • Un grupo importante de reservas combina varios factores de riesgo: lead time largo, sin depósito y canal intermediado.
+   • Estos casos representan una parte considerable de las pérdidas potenciales de ingresos.
 
 3. MODELO PREDICTIVO:
-   • ROC-AUC: 0.826 (buena capacidad discriminativa)
-   • Precisión en alto riesgo: 70.6%
-   • Permite intervención proactiva en reservas críticas
-
-4. OPORTUNIDADES ECONÓMICAS:
-   • Reducción factible: 5-7pp en tasa de cancelación
-   • Recuperación potencial: $2.3M con intervenciones
-   • ROI estimado: 3-5x en primer año
+   • La regresión logística mostró buena capacidad para diferenciar entre reservas canceladas y no canceladas.
+   • El modelo resalta variables clave (lead_time, depósito, canal) y permite anticipar reservas críticas.
 
 ============================================================
 
-INMEDIATAS (Semana 1-2):
-1. Implementar depósitos obligatorios para lead_time > 60 días
-2. Alertas automáticas para reservas de alto riesgo (score > 0.6)
-3. Contacto proactivo con clientes 7 días antes del check-in
+CORTO PLAZO:
+1. Reforzar políticas de depósito en reservas con mucha anticipación.
+2. Implementar alertas internas para reservas que combinan varios factores de riesgo.
+3. Revisar acuerdos con los canales de distribución que concentran más cancelaciones.
 
-CORTO PLAZO (Mes 1):
-4. Política diferenciada de depósitos por canal y temporada
-5. Incentivos para confirmación temprana (upgrades, descuentos F&B)
-6. Overbooking controlado: 3-5% en segmentos de alto riesgo
-
-MEDIANO PLAZO (Trimestre 1):
-7. Integración del modelo predictivo en sistema de reservas
-8. Pricing dinámico con factor de riesgo de cancelación
-9. Programa de fidelización para reducir cancelaciones recurrentes
-
-LARGO PLAZO (Año 1):
-10. Renegociación de contratos con OTAs basado en performance
-11. Sistema de revenue management integrado con predicción
-12. Dashboard en tiempo real para monitoreo continuo
+MEDIANO PLAZO:
+4. Ajustar precios y promociones diferenciando entre hotel urbano y resort.
+5. Integrar el modelo predictivo en el proceso de reservas para priorizar seguimiento a clientes de alto riesgo.
