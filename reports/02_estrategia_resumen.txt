@@ -1,30 +1,30 @@
-ESTRATEGIA DE AN√ÅLISIS - RESUMEN EJECUTIVO
+ESTRATEGIA DE AN¡LISIS - RESUMEN EJECUTIVO
 ============================================================
 
 CONTEXTO:
-El dataset presenta una tasa de cancelaci√≥n del 41.1%, 
-representando una p√©rdida potencial de $9,258,507 en ingresos.
+El dataset presenta una tasa de cancelaciÛn del 41.1%, 
+representando una pÈrdida potencial de $9,258,507 en ingresos.
 
 ESTRATEGIA PROPUESTA:
-Implementaci√≥n de un enfoque anal√≠tico de tres niveles que combina an√°lisis descriptivo 
-segmentado, validaci√≥n estad√≠stica rigurosa y modelado predictivo interpretable. Esta 
-aproximaci√≥n permite identificar factores causales, cuantificar impactos y dise√±ar 
+ImplementaciÛn de un enfoque analÌtico de tres niveles que combina an·lisis descriptivo 
+segmentado, validaciÛn estadÌstica rigurosa y modelado predictivo interpretable. Esta 
+aproximaciÛn permite identificar factores causales, cuantificar impactos y diseÒar 
 intervenciones focalizadas.
 
-T√âCNICAS CLAVE:
-1. Segmentaci√≥n multidimensional por hotel, canal, temporada y cliente
-2. Tests estad√≠sticos no param√©tricos adaptados a la distribuci√≥n de los datos
-3. Regresi√≥n log√≠stica para predicci√≥n y cuantificaci√≥n de efectos
-4. Visualizaci√≥n avanzada para comunicaci√≥n de insights
+T…CNICAS CLAVE:
+1. SegmentaciÛn multidimensional por hotel, canal, temporada y cliente
+2. Tests estadÌsticos no paramÈtricos adaptados a la distribuciÛn de los datos
+3. RegresiÛn logÌstica para predicciÛn y cuantificaciÛn de efectos
+4. VisualizaciÛn avanzada para comunicaciÛn de insights
 
 RESULTADOS ESPERADOS:
-‚Ä¢ Reducci√≥n de 5 puntos porcentuales en tasa de cancelaci√≥n
-‚Ä¢ Mejora del 10% en ocupaci√≥n efectiva
-‚Ä¢ ROI estimado de 3:1 en el primer a√±o de implementaci√≥n
-‚Ä¢ Framework reproducible para mejora continua
+ï ReducciÛn de 5 puntos porcentuales en tasa de cancelaciÛn
+ï Mejora del 10% en ocupaciÛn efectiva
+ï ROI estimado de 3:1 en el primer aÒo de implementaciÛn
+ï Framework reproducible para mejora continua
 
-PR√ìXIMOS PASOS:
-1. Ejecutar an√°lisis detallado seg√∫n framework definido
+PR”XIMOS PASOS:
+1. Ejecutar an·lisis detallado seg˙n framework definido
 2. Validar hallazgos con equipo operativo
 3. Implementar quick wins identificados
 4. Establecer sistema de monitoreo continuo

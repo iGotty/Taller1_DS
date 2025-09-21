@@ -1,38 +1,38 @@
-ESTRATEGIA DE AN√ÅLISIS - TALLER 1
+ESTRATEGIA DE AN¡LISIS - TALLER 1
 ============================================================
 
-La estrategia anal√≠tica se estructura en tres niveles complementarios que permiten 
-una comprensi√≥n integral del fen√≥meno de cancelaciones y sus factores determinantes:
+La estrategia analÌtica se estructura en tres niveles complementarios que permiten 
+una comprensiÛn integral del fenÛmeno de cancelaciones y sus factores determinantes:
 
-NIVEL 1: AN√ÅLISIS DESCRIPTIVO Y SEGMENTACI√ìN
-Utilizaremos estad√≠sticos descriptivos segmentados para identificar patrones base 
-de cancelaci√≥n. Esta segmentaci√≥n inicial por hotel, canal, temporada y tipo de 
-cliente permitir√° identificar grupos de alto riesgo donde focalizar intervenciones. 
-La visualizaci√≥n multivariante mediante mapas de calor y gr√°ficos categ√≥ricos 
-revelar√° interacciones entre variables clave como lead_time, deposit_type y 
-precio, fundamentales para dise√±ar pol√≠ticas diferenciadas.
+NIVEL 1: AN¡LISIS DESCRIPTIVO Y SEGMENTACI”N
+Utilizaremos estadÌsticos descriptivos segmentados para identificar patrones base 
+de cancelaciÛn. Esta segmentaciÛn inicial por hotel, canal, temporada y tipo de 
+cliente permitir· identificar grupos de alto riesgo donde focalizar intervenciones. 
+La visualizaciÛn multivariante mediante mapas de calor y gr·ficos categÛricos 
+revelar· interacciones entre variables clave como lead_time, deposit_type y 
+precio, fundamentales para diseÒar polÌticas diferenciadas.
 
-NIVEL 2: AN√ÅLISIS INFERENCIAL Y VALIDACI√ìN
-Aplicaremos pruebas estad√≠sticas rigurosas (chi-cuadrado para variables categ√≥ricas, 
+NIVEL 2: AN¡LISIS INFERENCIAL Y VALIDACI”N
+Aplicaremos pruebas estadÌsticas rigurosas (chi-cuadrado para variables categÛricas, 
 Mann-Whitney para comparaciones de grupos dado el sesgo en variables continuas) para 
-validar que las diferencias observadas son estad√≠sticamente significativas y no 
+validar que las diferencias observadas son estadÌsticamente significativas y no 
 producto del azar. Este nivel proporciona la confianza necesaria para tomar 
-decisiones basadas en evidencia s√≥lida, cuantificando tama√±os de efecto mediante 
-Cram√©r's V y Cohen's d para priorizar intervenciones por impacto potencial.
+decisiones basadas en evidencia sÛlida, cuantificando tamaÒos de efecto mediante 
+CramÈr's V y Cohen's d para priorizar intervenciones por impacto potencial.
 
 NIVEL 3: MODELADO PREDICTIVO INTERPRETABLE
-Desarrollaremos un modelo de regresi√≥n log√≠stica para predecir probabilidad de 
-cancelaci√≥n, priorizando interpretabilidad sobre precisi√≥n m√°xima. Los coeficientes 
-del modelo, expresados como odds ratios, permitir√°n cuantificar el impacto relativo 
-de cada factor, mientras que an√°lisis de importancia de variables guiar√° la 
-priorizaci√≥n de acciones. La validaci√≥n cruzada asegurar√° robustez de resultados.
+Desarrollaremos un modelo de regresiÛn logÌstica para predecir probabilidad de 
+cancelaciÛn, priorizando interpretabilidad sobre precisiÛn m·xima. Los coeficientes 
+del modelo, expresados como odds ratios, permitir·n cuantificar el impacto relativo 
+de cada factor, mientras que an·lisis de importancia de variables guiar· la 
+priorizaciÛn de acciones. La validaciÛn cruzada asegurar· robustez de resultados.
 
-JUSTIFICACI√ìN DE T√âCNICAS:
-- Estad√≠sticos descriptivos segmentados: Permiten identificar r√°pidamente grupos 
-  problem√°ticos sin complejidad computacional.
-- Visualizaciones multivariantes: Revelan patrones no evidentes en an√°lisis 
+JUSTIFICACI”N DE T…CNICAS:
+- EstadÌsticos descriptivos segmentados: Permiten identificar r·pidamente grupos 
+  problem·ticos sin complejidad computacional.
+- Visualizaciones multivariantes: Revelan patrones no evidentes en an·lisis 
   univariados, especialmente interacciones.
-- Tests no param√©tricos: Apropiados dado el sesgo y outliers en variables como 
+- Tests no paramÈtricos: Apropiados dado el sesgo y outliers en variables como 
   ADR y lead_time.
-- Regresi√≥n log√≠stica: Balance √≥ptimo entre interpretabilidad para stakeholders 
+- RegresiÛn logÌstica: Balance Ûptimo entre interpretabilidad para stakeholders 
   y capacidad predictiva.
