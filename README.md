@@ -4,7 +4,8 @@
 Análisis integral de datos de reservas hoteleras para identificar patrones de demanda, factores de cancelación y oportunidades de optimización de ocupación en hoteles de ciudad y resort.
 
 ## Integrantes
-- Analista Principal: Consultor Senior en Ciencia de Datos
+-Juan Esteban Cuellar Argotty 202014258
+-Juan David Valencia Camargo 2017288857
 
 ## Estructura del Proyecto
 
@@ -82,11 +83,3 @@ Los notebooks deben ejecutarse en orden numérico:
 - Datos históricos sin información de competencia
 - No incluye factores externos (eventos, clima, economía)
 - Sesgo temporal en patrones pre/post pandemia
-
-## Contacto
-
-Para consultas sobre este análisis, contactar al equipo de Data Science.
-
-## Licencia
-
-MIT License - Ver archivo LICENSE para detalles.
